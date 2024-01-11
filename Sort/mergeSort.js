@@ -22,7 +22,9 @@ function merge(arr1, arr2) {
 }
 
 
-//Worst Case O(n log n)
+//Worst Case Time Complexity O(n log n)
+//Worst Case Space Complexity 0(n)
+
 function mergeSort(arr) {
     if(arr.length <= 1) return arr;
 
