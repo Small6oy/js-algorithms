@@ -24,8 +24,8 @@ function pivot(arr, start = 0, end = arr.length - 1) {
 }
 
 
-//Worst Case Time Complexity O(n log n)
-//Worst Case Space Complexity 0(n)
+//Worst Case Time Complexity O(n2)
+//Worst Case Space Complexity 0(log n)
 function quickSort(arr, left = 0, right = arr.length - 1) {
     if (left < right) {
         let pivotIndex = pivot(arr, left, right) //3
