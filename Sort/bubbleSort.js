@@ -1,7 +1,7 @@
 // Write a function named bubbleSort
 // which takes in an array of intergers and sorts them out in ascending order
 
-//Unoptimized Big On2
+//Worst Case Big On2
 function bubbleSort(arr) {
     let noSwaps;
     for (let i = arr.length; i > 0; i--) {

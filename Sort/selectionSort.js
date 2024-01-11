@@ -1,7 +1,7 @@
 // Write a function named selectionSort
 // which takes in an array of intergers and sorts them out in ascending order
 
-// Big On2
+// Worst Case Big On2
 function selectionSort(arr) {
 
     for (let i = 0; i < arr.length; i++) {
