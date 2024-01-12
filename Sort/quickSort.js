@@ -1,7 +1,5 @@
 // Write a function named quickSort
 // which takes in an array of intergers and sorts them out in ascending order
-
-
 function pivot(arr, start = 0, end = arr.length - 1) {
     const swap = (arr, idx1, idx2) => {
         [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
@@ -22,7 +20,6 @@ function pivot(arr, start = 0, end = arr.length - 1) {
     swap(arr, start, swapIdx);
     return swapIdx;
 }
-
 
 //Worst Case Time Complexity O(n2)
 //Worst Case Space Complexity 0(log n)
